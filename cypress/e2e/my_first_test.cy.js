@@ -2,9 +2,5 @@
 
 it ('Iniciar Google', function(){
     cy.visit('https://www.google.com')
-    it('Iniciar AliExpress', function(){
-        cy.visit('https://www.google.com')
-
-    })
-    
+    cy.get('.spoKVd > :nth-child(1)').click()
 })
